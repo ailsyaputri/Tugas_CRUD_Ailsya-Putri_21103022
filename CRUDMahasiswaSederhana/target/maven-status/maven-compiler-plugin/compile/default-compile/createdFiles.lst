@@ -1,0 +1,6 @@
+com\mycompany\crudmahasiswasederhana\models\Mahasiswa.class
+com\mycompany\crudmahasiswasederhana\Controller\MahasiswaController.class
+com\mycompany\crudmahasiswasederhana\crudmahasiswasederhana\db\ConnectionHelper.class
+com\mycompany\crudmahasiswasederhana\CRUDMahasiswaSederhana.class
+com\mycompany\crudmahasiswasederhana\CRUDMahasiswaSederhana$1.class
+com\mycompany\crudmahasiswasederhana\interfc\MahasiswaInterface.class
