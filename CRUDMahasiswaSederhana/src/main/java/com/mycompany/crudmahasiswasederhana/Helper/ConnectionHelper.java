@@ -24,7 +24,7 @@ public class ConnectionHelper {
     
 
     public static Connection getConnection() throws SQLException {
-        String db = "sisteminformasi";
+        String db = "sistem_informasi";
         String url = "jdbc:mysql://localhost:3306/"+db;
         String username = "root";
         String pass = "";
@@ -33,7 +33,7 @@ public class ConnectionHelper {
                 System.out.println("Membuat koneksi...");
                 Class.forName("com.mysql.cj.jdbc.Driver");
                 connect = DriverManager.getConnection(
-                        "jdbc:mysql://localhost:3306/sisteminformasi",
+                        "jdbc:mysql://localhost:3306/sistem_informasi",
                         "root",
                         "");
                 st = (Statement) connect.createStatement();
